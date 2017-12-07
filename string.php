@@ -4,6 +4,8 @@
 string concepts
 </h1>
 <?php
+  define("GREETING", "Welcome to W3Schools.com!",true);
+echo greeting;
 $txt="hello world good moring";
   echo $txt;
    echo "<br>";
