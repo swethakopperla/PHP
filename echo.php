@@ -6,7 +6,7 @@ echo statements
 <?php
 echo "<h2> PHP is fun!</h2>";
 echo "Hello world</br>";
-echo "this","is","very","easy";
+echo "this ","is ","very ","easy";
 ?>
 </p>
 </body>
