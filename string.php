@@ -5,6 +5,8 @@ string concepts
 </h1>
 <?php
 $txt="hello world good moring";
+  echo $txt;
+   echo "<br>";
 echo strlen($txt);
   echo "<br>";
 echo str_word_count($txt);
