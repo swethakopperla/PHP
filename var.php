@@ -1,8 +1,8 @@
 <html>
 <body>
 <?php
-$x=5;$y=5;
-echo "x+y=$x+$y";
+$x=5;$y=5;$c=$x+$y;
+echo "x+y=$c";
 ?>
 </body>
 </html>
