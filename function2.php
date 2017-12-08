@@ -17,6 +17,16 @@ echo "2 + 4 = " . sum(2,4);
        
     }
     con("swetha","reddy");
+    echo "<br><br>";
+    function wtf($blahblah = true) {
+    $var1 = "ONe";
+    $var2 = "tWo";
+
+    if($blahblah === true) {
+      return $var2;
+    }
+    return $var1;
+}
 ?>
 </body>
 </html>
