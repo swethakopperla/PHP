@@ -16,6 +16,12 @@ switch ($favcolor) {
     default:
         echo "Your favorite color is neither red, blue, nor green!";
 }
+    echo "<br>";
+    $no = array(1,5,6,3,12,3); 
+
+foreach ($no as $value) {
+    echo "$value <br>";
+}    echo "<br>";
     for($x=0;$x<=10;$x++)
     {
         echo "the number is :";
