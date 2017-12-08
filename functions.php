@@ -38,7 +38,7 @@ php functions</h1>
     $fullname= $fname." ".$lname;
     return $fullname;
     }
-    echo "fullname ".string("swetha","uma")."<br>";
+    string("swetha","uma");
       
   ?>
   </body>
