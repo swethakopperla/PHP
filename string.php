@@ -8,11 +8,7 @@ string concepts
   define("GREETING", "Welcome to W3Schools.com!",true);
 echo greeting;
      echo "<br>";
-function myTest() {
-    echo GREETING;
-}
- 
-myTest();
+
 $txt="hello world good moring";
   echo $txt;
    echo "<br>";
