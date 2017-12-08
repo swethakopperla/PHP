@@ -24,6 +24,14 @@ php functions</h1>
   fullName("swetha","reddy");
   fullName("sai","uma");
   fullName("hari","charana");
+  echo "functions defaults values";
+  function inter($x=10)
+  {
+    echo "value is $x<br>";
+  }
+  inter();
+  inter(45);
+  inter(5);
   
   ?>
   </body>
