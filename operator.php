@@ -8,6 +8,9 @@ echo $x+$y;echo "<br>";
 echo $x-$y;echo "<br>";
 echo $x*$y;echo "<br>";
 echo $x/$y;echo "<br>";
+  echo $x=$y;echo "<br>";
+  echo $x+=$y;echo "<br>";
+  echo $x-=$y;echo "<br>";
 ?>
 </body>
 </html>
