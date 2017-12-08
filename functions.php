@@ -24,7 +24,7 @@ php functions</h1>
   fullName("swetha","reddy");
   fullName("sai","uma");
   fullName("hari","charana");
-  echo "functions defaults values";
+  echo "<h4>functions defaults values</h4><br>";
   function inter($x=10)
   {
     echo "value is $x<br>";
