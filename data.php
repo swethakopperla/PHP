@@ -9,7 +9,7 @@ $password="Root@1234";
 $dbname="swetha";
 $usertable="empdtls";
 $yourfield="id"
-$connection = mysql_connect($hostname, $username, $password);
+$conn = mysql_connect($hostname, $username, $password);
 mysql_select_db($dbname, $connection);
 
 # Check If Record Exists
@@ -25,6 +25,7 @@ $name=$row["$yourfield"];
 echo "Name: ".$name." ";
 }
 }
+mysql_close($conn);
 ?>
 </body>
 </html>
