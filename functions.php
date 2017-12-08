@@ -32,7 +32,14 @@ php functions</h1>
   inter();
   inter(45);
   inter(5);
-  
+  echo "<br><h4>function return value</h4><br>";
+  function string($fname,$lname)
+    (
+    $fullname= $fname." ".$lname;
+    return $fullname;
+    }
+    echo "fullname ".string("swetha","uma")."<br>";
+      
   ?>
   </body>
 </html>
