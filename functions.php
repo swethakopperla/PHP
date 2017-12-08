@@ -11,6 +11,7 @@ php functions</h1>
   function firstName($name)
   {
     echo "myname is:".$name;
+    echo "$name refer<br>";
   }
   firstName("swetha");
   echo "<br>";
