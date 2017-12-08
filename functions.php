@@ -19,9 +19,8 @@ php functions</h1>
   echo "<br>"."<br>";
   function fullName($fname,$lname)
   {
-    echo "my first name is $fname <br>";
-    echo "my last name is $lname <br>";
-  }
+    echo "my first name is $fname and last name is $lname<br>";
+      }
   fullName("swetha","reddy");
   fullName("sai","uma");
   fullName("hari","charana");
