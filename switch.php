@@ -18,7 +18,9 @@ switch ($favcolor) {
 }
     for($x=0;$x<=10;$x++)
     {
-        echo "the number is :".$X."</br>";
+        echo "the number is :";
+        echo $x;
+            echo "</br>";
     } 
     echo "</br>";
     $x = 1; 
