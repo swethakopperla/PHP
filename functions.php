@@ -7,6 +7,7 @@ php functions</h1>
     echo "hello world";
   }
   hello();
+  echo "<br>";
   function firstName($name)
   {
     echo "myname is:".$name;
