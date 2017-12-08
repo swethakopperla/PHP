@@ -33,12 +33,12 @@ php functions</h1>
   inter(45);
   inter(5);
   echo "<br><h4>function return value</h4><br>";
-  function string($fname,$lname)
+  function fname($fname,$lname)
     (
     echo $fname." ".$lname;
     
     }
-    string("swetha","uma");
+    fname("swetha","uma");
       
   ?>
   </body>
