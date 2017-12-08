@@ -10,7 +10,13 @@ function sum($x, $y) {
 echo "5 + 10 = " . sum(5,10) . "<br>";
 echo "7 + 13 = " . sum(7,13) . "<br>";
 echo "2 + 4 = " . sum(2,4);
+    echo "<br>";
+    function con($fname,$lname)
+    {
+        $fullname=$fname." ".$lname;
+        return $fullname;
+    }
+    con("swetha","reddy");
 ?>
-
 </body>
 </html>
