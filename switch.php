@@ -2,6 +2,9 @@
 <body>
 
 <?php
+    $name ="swetha";
+    echo "Welcome ".$name."!";
+    echo "<br>";
 $favcolor = "blue";
 switch ($favcolor) {
     case "red":
