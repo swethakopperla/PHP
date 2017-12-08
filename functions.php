@@ -2,6 +2,13 @@
 <body>
 <h1>
 php functions</h1>
-</body>
+  <?php
+  function hello(){
+    echo "hello world";
+  }
+  hello();
+  
+  ?>
+  </body>
 </html>
 
