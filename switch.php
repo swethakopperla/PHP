@@ -35,7 +35,11 @@ while($x <= 5) {
     echo "The number is: $x <br>";
     $x++;
 }
-?>
+    $name="John";
+    $lastName="Travolta";
+    echo $name." ".$lastName;
+    echo "</br>"
+  ?>
  
 </body>
 </html>
