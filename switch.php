@@ -16,6 +16,13 @@ switch ($favcolor) {
     default:
         echo "Your favorite color is neither red, blue, nor green!";
 }
+    echo "</br>";
+    $x = 1; 
+
+while($x <= 5) {
+    echo "The number is: $x <br>";
+    $x++;
+}
 ?>
  
 </body>
