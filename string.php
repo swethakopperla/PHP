@@ -7,8 +7,11 @@ string concepts
 
   define("GREETING", "Welcome to W3Schools.com!",true);
 echo greeting;
+<<<<<<< HEAD
      echo "<br>";
 
+=======
+>>>>>>> 3ddd1cb52793d84e740c4f9412b9b3e61377690e
 $txt="hello world good moring";
   echo $txt;
    echo "<br>";
