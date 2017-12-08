@@ -13,8 +13,8 @@ echo "2 + 4 = " . sum(2,4);
     echo "<br>";
     function con($fname,$lname)
     {
-        $fullname=$fname." ".$lname;
-        return $fullname;
+        echo $fname." ".$lname;
+       
     }
     con("swetha","reddy");
 ?>
