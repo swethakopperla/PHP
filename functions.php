@@ -35,8 +35,8 @@ php functions</h1>
   echo "<br><h4>function return value</h4><br>";
   function string($fname,$lname)
     (
-    $fullname= $fname." ".$lname;
-    return $fullname;
+    echo $fname." ".$lname;
+    
     }
     string("swetha","uma");
       
