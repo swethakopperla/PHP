@@ -11,7 +11,7 @@ Enter email:<input type="text" name="email"></br>
   echo "email is : $email<br>";
 
 }
-if(isset($-POST['add'])
+if(isset($_POST['add'])
 {
   
   name($_POST['name'],$_POST['email']);
