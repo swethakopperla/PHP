@@ -2,34 +2,24 @@
 <body>
 <?php  
 //add() function with two parameter  
-function add($x,$y)    
+function fullname($x,$y)    
 {  
-$sum=$x." ".$y;  
-echo "Sum = $sum <br><br>";  
+$fullname=$x." ".$y;  
+echo "FULLNAME = $fullname <br><br>";  
 }  
-//sub() function with two parameter  
-function sub($x,$y)    
-{  
-$sub=$x." sub ".$y;  
-echo "Diff = $sub <br><br>";  
-}  
+
 //call function, get  two argument through input box and click on add or sub button  
-if(isset($_POST['add']))  
+if(isset($_POST['fullname']))  
 {  
 //call add() function  
- add($_POST['first'],$_POST['second']);  
-}     
-if(isset($_POST['sub']))  
-{  
-//call add() function  
-sub($_POST['first'],$_POST['second']);  
+fullname($_POST['firstname'],$_POST['secondname']);  
 }  
 ?>  
 <form method="post">  
-Enter first number: <input type="text" name="first"/><br><br>  
-Enter second number: <input type="text" name="second"/><br><br>  
-<input type="submit" name="add" value="ADDITION"/>  
-<input type="submit" name="sub" value="SUBTRACTION"/>  
+Enter first number: <input type="text" name="firstname"/><br><br>  
+Enter second number: <input type="text" name="secondname"/><br><br>  
+<input type="submit" name="fullname" value="FULLNAME"/>  
+ 
 </form>
 </body>
 </html>
