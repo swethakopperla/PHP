@@ -10,7 +10,7 @@ echo "Sum = $sum <br><br>";
 //sub() function with two parameter  
 function sub($x,$y)    
 {  
-$sub=$x."sub".$y;  
+$sub=$x." sub ".$y;  
 echo "Diff = $sub <br><br>";  
 }  
 //call function, get  two argument through input box and click on add or sub button  
