@@ -20,6 +20,8 @@ echo "Kartik salary: ".$salary["Kartik"]."<br/>";
   {
     echo "salary is :$s<br><br>";
   }
+  echo count($salary);
+  
 ?>
 </body>
 </html>
