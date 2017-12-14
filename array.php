@@ -18,7 +18,7 @@ echo "John salary: ".$salary["John"]."<br/>";
 echo "Kartik salary: ".$salary["Kartik"]."<br/>";
   foreach($salary as $s)
   {
-    echo "salary is :$s";
+    echo "salary is :$s<br><br>";
   }
 ?>
 </body>
