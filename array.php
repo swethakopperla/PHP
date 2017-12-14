@@ -20,7 +20,21 @@ echo "Kartik salary: ".$salary["Kartik"]."<br/>";
   {
     echo "salary is :$s<br><br>";
   }
-  echo count($salary);
+  echo "count is :".count($salary);
+  $emp=array
+    (
+    array(1,"swetha",300000);
+    array(2,"uma",25000);
+    array(3,"sneha",30000);
+    array(4,"hari",20000);
+    )
+    for($row=0;$row<=3;$row++)
+    {
+      for($col=0;$col<=3;$col++)
+          {
+            echo $emp[$row][$col]."<br>";
+      }
+    }
   
 ?>
 </body>
