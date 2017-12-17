@@ -4,7 +4,7 @@
 database connection
 </h1>
 <?php
-$con =new mysqli("localhost","root","Root@1234");
+$con =new mysqli("localhost","wordpressuser","password");
 if ($con->connect_error)
 {
 die('Could not connect: ' . $con->connect_error);
