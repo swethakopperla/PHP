@@ -9,7 +9,7 @@ if ($con->connect_error)
 {
 die('Could not connect: ' . $con->connect_error);
 }echo "word press user connected successfully";
-$sql = "CREATE DATABASE DBSWE;";
+$sql = "CREATE database DBSWE;";
 if ($conn->query($sql) === TRUE) {
     echo "Database created successfully";
 } else {
