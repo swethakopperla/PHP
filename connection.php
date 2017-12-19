@@ -21,8 +21,7 @@ if($result)
 while($row = mysql_fetch_array($result))
 {
 $name = $row["$yourfield"];
-echo "Name: ".$name."
-";
+echo "Name: ".$name."<br> ";
 }
 }
 ?>
