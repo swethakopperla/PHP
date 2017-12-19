@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php  
-$host = 'localhost:3306';  
+$host = 'localhost';  
 $user = 'root';  
 $pass = 'Root@1234';  
 $dbname = 'swetha';  
