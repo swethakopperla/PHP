@@ -3,7 +3,7 @@
 <h1>
 data base connection</h1>
 <?php
-$hostname="server.itblabs.com";
+$hostname="localhost";
 $username="root";
 $password="Root@1234";
 $dbname="swetha";
