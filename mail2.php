@@ -10,7 +10,7 @@
   
    $result = mail ($to,$subject,$message,$header);  
   
-   if( $result == true ){  
+   if( $result == false ){  
       echo "Message sent successfully...";  
    }else{  
       echo "Sorry, unable to send mail...";  
