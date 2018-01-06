@@ -2,11 +2,11 @@
 <body>
 
 <?php  
-   ini_set("sendmail_from", "swethareddy948@gmail.com");  
-   $to = "swethak.itblabs@gmail.com";//change receiver address  
+   ini_set("sendmail_from", "swetha.k@itblabs.com");  
+   $to = "swetha.k@itblabs.com";//change receiver address  
    $subject = "This is subject";  
    $message = "This is simple text message.";  
-   $header = "From:swethareddy948@gmail.com \r\n";  
+   $header = "From:swetha.k@itblabs.com \r\n";  
   
    $result = mail ($to,$subject,$message,$header);  
   
